@@ -57,7 +57,7 @@ function mostrarSecciones() {
 
 function obtenerPlatillos() {
 
-  const url = 'http://localhost:4000/platillos'
+  const url = 'https://my-json-server.typicode.com/Deivid182/api-platillos/platillos'
 
   fetch(url)
       .then(respuesta => respuesta.json())
